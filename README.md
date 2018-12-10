@@ -4,8 +4,9 @@
  How to
 --
 
- To get a Git project into your build:
- Step 1. Add the JitPack repository to your build file
+##### To get a Git project into your build:
+ 
+##### **Step 1. Add the JitPack repository to your build file**
  
 ##### Gradle
 
@@ -18,7 +19,7 @@ allprojects {
 }
 ```
 
-##### Step 2. Add the dependency
+##### **Step 2. Add the dependency**
 
  ```
 implementation 'com.github.Chen-Xi-g:ToastUtils:1.0.0'
