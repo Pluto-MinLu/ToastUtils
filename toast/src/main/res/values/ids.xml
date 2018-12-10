@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--优化吐司多次点击只显示最后一次，摒弃使用Looper而使用Handler来处理来自子线程的吐司以及管理吐司-->
+    <item name="toast_main_text_view_id" type="id" />
+</resources>

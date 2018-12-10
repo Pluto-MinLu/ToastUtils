@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--多机型兼容-->
+    <style name="ToastAnimation" parent="@android:style/Animation.Toast">
+    </style>
+</resources>

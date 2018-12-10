@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ToastUtils</string>
+    <string name="toast">普通的Toast</string>
+</resources>
