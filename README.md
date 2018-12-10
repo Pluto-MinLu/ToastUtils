@@ -71,8 +71,9 @@ public static void show(CharSequence text)
  **邮箱:** a912816369@gmail.com
  
  
+ ### License
  ```
- Copyright [2018] [Chen-Xi-g]
+ Copyright 2018 Chen-Xi-g
 
  Licensed under the Apache License, Version 2.0 (the "License");
  you may not use this file except in compliance with the License.
