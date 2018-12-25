@@ -1,5 +1,4 @@
-# 无视通知权限的Toast   1.0.0  [![ToastUtils](https://jitpack.io/v/Chen-Xi-g/ToastUtils.svg)](https://jitpack.io/#Chen-Xi-g/ToastUtils)
-## Toast unaffected by notification permissions 1.0.0
+# 无视通知权限的Toast   1.0.0(Toast unaffected by notification permissions 1.0.0)  [![ToastUtils](https://jitpack.io/v/Chen-Xi-g/ToastUtils.svg)](https://jitpack.io/#Chen-Xi-g/ToastUtils)
 <img src="http://a3.qpic.cn/psb?/V12LSg7n0Vj1Fg/nKIJtyxKiSKDuL*RaIM4yca0Cc9WtmD5s2txG61PCB0!/b/dFIBAAAAAAAA&ek=1&kp=1&pt=0&bo=yADIAMgAyAADGTw!&tl=1&vuin=912816369&tm=1544418000&sce=60-2-2&rf=viewer_4"  height="60" width="100"><img src="http://m.qpic.cn/psb?/V12LSg7n0Vj1Fg/aQWM2qX1u9g6jCRA54s.GEBjdpwpiwMqcPUoyOGd8Bk!/b/dFQBAAAAAAAA&bo=yADIAMgAyAADGTw!&rf=viewer_4" height="60" width="100"><img src="http://m.qpic.cn/psb?/V12LSg7n0Vj1Fg/0CArzmNrN9SFGn.29tWke0g3UuHQHvQRz3vZQaKqj6I!/b/dDQBAAAAAAAA&bo=yADIAMgAyAADGTw!&rf=viewer_4" height="60" width="100"><img src="http://m.qpic.cn/psb?/V12LSg7n0Vj1Fg/sxQLkfTKlX6LDxS3DjJMfnf4s6px3byX.lNGs.tEECM!/b/dFMBAAAAAAAA&bo=yADIAMgAyAADGTw!&rf=viewer_4" height="60" width="100"><img src="http://a3.qpic.cn/psb?/V12LSg7n0Vj1Fg/nKIJtyxKiSKDuL*RaIM4yca0Cc9WtmD5s2txG61PCB0!/b/dFIBAAAAAAAA&ek=1&kp=1&pt=0&bo=yADIAMgAyAADGTw!&tl=1&vuin=912816369&tm=1544418000&sce=60-2-2&rf=viewer_4" height="60" width="100">
  
  How to
@@ -26,11 +25,9 @@ allprojects {
 implementation 'com.github.Chen-Xi-g:ToastUtils:1.0.0'
 ```
 
- ### 如何使用
- #### How to use
+ ### 如何使用(How to use)
  
- #### 1.初始化
- ##### 1.Initialization
+ #### 1.初始化(Initialization)
  
 ```
 //在Application 中初始化
@@ -47,8 +44,7 @@ public static void init(Application application)
 public static void initStyle(IToastStyle style)
 ```
  
- #### 2.使用
- ##### 2.Use
+ #### 2.使用(Use)
  
 ```
 /*
@@ -67,13 +63,11 @@ public static void show(int id)
 public static void show(CharSequence text)
 ```
 
- ### 如果你感觉对你有用的话请点一下Star吧，而且你还可以打赏一波
- #### If you feel useful to you, please click Star, or you can reward it.
+ ### 如果你感觉对你有用的话请点一下Star吧，而且你还可以打赏一波(If you feel useful to you, please click Star, or you can reward it.)
  
  <img src="http://r.photo.store.qq.com/psb?/V12LSg7n0Vj1Fg/JIE.r7vzYd0JdQV4.U8AFDF2wy5d*DXixdQZ2ZFiV6I!/r/dEYBAAAAAAAA" height = "400" width = "300">      <img src="http://r.photo.store.qq.com/psb?/V12LSg7n0Vj1Fg/64q8qbMEanfoAXbFWxrESl6QXS7ITX63kCabiSRL440!/r/dLYAAAAAAAAA" height = "400" width = "300">
  
- ### 如何联系我
- #### How to contact me
+ ### 如何联系我(How to contact me)
  
  **QQ:** 912816369
  
