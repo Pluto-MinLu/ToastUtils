@@ -49,12 +49,7 @@ final class ToastHelper implements Runnable {
             // params.type = WindowManager.LayoutParams.TYPE_TOAST;
             // 判断是否为 Android 6.0 及以上系统并且有悬浮窗权限
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M && Settings.canDrawOverlays(mToast.getView().getContext())) {
-                // 解决使用 WindowManager 创建的 Toast 只能显示在当前 Activity 的问题
-                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-                    params.type = WindowManager.LayoutParams.TYPE_APPLICATION_OVERLAY;
-                }else {
                     params.type = WindowManager.LayoutParams.TYPE_PHONE;
-                }
             }
             params.height = WindowManager.LayoutParams.WRAP_CONTENT;
             params.width = WindowManager.LayoutParams.WRAP_CONTENT;

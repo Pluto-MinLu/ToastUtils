@@ -2,7 +2,6 @@ package com.minlu.toast;
 
 import android.app.AppOpsManager;
 import android.app.Application;
-import android.app.NotificationManager;
 import android.content.Context;
 import android.content.pm.ApplicationInfo;
 import android.content.res.Resources;
@@ -13,11 +12,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.minlu.toast.style.ToastBlackStyle;
 import com.minlu.toast.style.ToastQQStyle;
 import com.minlu.toast.style.ToastWhiteStyle;
-
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -233,9 +230,7 @@ public final class ToastUtils {
      * 参考SupportCompat包中的： NotificationManagerCompat.from(context).areNotificationsEnabled();
      */
     public static boolean isNotificationEnabled(Context context){
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
-            return ((NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE)).areNotificationsEnabled();
-        } else if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
             AppOpsManager appOps = (AppOpsManager) context.getSystemService(Context.APP_OPS_SERVICE);
             ApplicationInfo appInfo = context.getApplicationInfo();
             String pkg = context.getApplicationContext().getPackageName();
