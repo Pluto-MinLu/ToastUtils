@@ -22,7 +22,7 @@ allprojects {
 ##### **Step 2. Add the dependency**
 
  ```
-implementation 'com.github.Chen-Xi-g:ToastUtils:1.0.0'
+implementation 'com.github.Chen-Xi-g:ToastUtils:1.0.1'
 ```
 
  ### 如何使用(How to use)
