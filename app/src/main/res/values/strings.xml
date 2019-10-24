@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">ToastUtils</string>
-    <string name="toast">普通的Toast</string>
+    <string name="ordinary_toast">普通的Toast</string>
+    <string name="lengthen_toast">延长的Toast</string>
 </resources>
