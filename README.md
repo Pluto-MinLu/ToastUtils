@@ -30,18 +30,21 @@ implementation 'com.github.Chen-Xi-g:ToastUtils:1.0.1'
  #### 1.初始化(Initialization)
  
 ```
-//在Application 中初始化
-
-public static void init(Application application) 
+//在Application 中初始化;如果设置样式先initStyle
 
  /*
  *你也可以在Application初始化时选择或定义Toast样式 本框架默认提供了三种样式
+ *如果与想要的效果不符可自定义样式。
  *黑色样式(Black style)：{@link ToastBlackStyle}
  *白色样式(White style)：{@link ToastWhiteStyle}
  *仿QQ样式(Imitation QQ style)：{@link ToastQQStyle}
  */
  
 public static void initStyle(IToastStyle style)
+
+//初始化Toast
+public static void init(Application application) 
+
 ```
  
  #### 2.使用(Use)
@@ -61,6 +64,29 @@ public static void show(int id)
  * CharSequence
  */
 public static void show(CharSequence text)
+```
+
+ ### 3.自定义Toast样式。
+```
+//新建一个类实现接口 IToastStyle 和方法...
+
+    int getGravity(); // Toast的位置，Gravity.TOP ; Gravity.BOTTOM ; Gravity.CENTER;
+    int getXOffset(); // X轴偏移
+    int getYOffset(); // Y轴偏移
+    int getZ(); // ToastZ轴y阴影
+
+    int getCornerRadius(); // 圆角大小
+    int getBackgroundColor(); // 背景颜色
+
+    int getTextColor(); // 文本颜色
+    float getTextSize(); // 文本大小
+    int getMaxLines(); // 最大行数
+
+    int getPaddingLeft(); // 左边内边距
+    int getPaddingTop(); // 顶部内边距
+    int getPaddingRight(); // 右边内边距
+    int getPaddingBottom(); // 底部内边距
+
 ```
 
  ### 如果你感觉对你有用的话请点一下Star吧，而且你还可以打赏一波(If you feel useful to you, please click Star, or you can reward it.)
