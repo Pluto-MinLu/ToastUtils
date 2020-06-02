@@ -1,5 +1,8 @@
-# (停止维护) 无视通知权限的Toast   1.2.0(Toast unaffected by notification permissions 1.2.0)  [![ToastUtils](https://jitpack.io/v/Chen-Xi-g/ToastUtils.svg)](https://jitpack.io/#Chen-Xi-g/ToastUtils)
+# (暂停维护) 无视通知权限的Toast   1.2.0(Toast unaffected by notification permissions 1.2.0)  [![ToastUtils](https://jitpack.io/v/Chen-Xi-g/ToastUtils.svg)](https://jitpack.io/#Chen-Xi-g/ToastUtils)
 <img src="http://a3.qpic.cn/psb?/V12LSg7n0Vj1Fg/nKIJtyxKiSKDuL*RaIM4yca0Cc9WtmD5s2txG61PCB0!/b/dFIBAAAAAAAA&ek=1&kp=1&pt=0&bo=yADIAMgAyAADGTw!&tl=1&vuin=912816369&tm=1544418000&sce=60-2-2&rf=viewer_4"  height="60" width="100"><img src="http://m.qpic.cn/psb?/V12LSg7n0Vj1Fg/aQWM2qX1u9g6jCRA54s.GEBjdpwpiwMqcPUoyOGd8Bk!/b/dFQBAAAAAAAA&bo=yADIAMgAyAADGTw!&rf=viewer_4" height="60" width="100"><img src="http://m.qpic.cn/psb?/V12LSg7n0Vj1Fg/0CArzmNrN9SFGn.29tWke0g3UuHQHvQRz3vZQaKqj6I!/b/dDQBAAAAAAAA&bo=yADIAMgAyAADGTw!&rf=viewer_4" height="60" width="100"><img src="http://m.qpic.cn/psb?/V12LSg7n0Vj1Fg/sxQLkfTKlX6LDxS3DjJMfnf4s6px3byX.lNGs.tEECM!/b/dFMBAAAAAAAA&bo=yADIAMgAyAADGTw!&rf=viewer_4" height="60" width="100"><img src="http://a3.qpic.cn/psb?/V12LSg7n0Vj1Fg/nKIJtyxKiSKDuL*RaIM4yca0Cc9WtmD5s2txG61PCB0!/b/dFIBAAAAAAAA&ek=1&kp=1&pt=0&bo=yADIAMgAyAADGTw!&tl=1&vuin=912816369&tm=1544418000&sce=60-2-2&rf=viewer_4" height="60" width="100">
+ 
+ 目前暂停维护，Issues看到后会处理。
+ 
  
  How to
 --
